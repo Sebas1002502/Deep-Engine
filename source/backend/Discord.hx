@@ -68,11 +68,16 @@ class DiscordClient
 
 	public static function initialize()
 	{
-		var discordHandlers:DiscordEventHandlers = DiscordEventHandlers.create();
+		var discordHandlers = new DiscordEventHandlers();
 		discordHandlers.ready = cpp.Function.fromStaticFunction(onReady);
 		discordHandlers.disconnected = cpp.Function.fromStaticFunction(onDisconnected);
 		discordHandlers.errored = cpp.Function.fromStaticFunction(onError);
-		Discord.Initialize(clientID, cpp.RawPointer.addressOf(discordHandlers), 1, null);
+		Discord.Initialize(
+        clientID,
+        cpp.RawPointer.addressOf(discordHandlers),
+        true,
+        null
+        );
 
 		if(!isInitialized) trace("Discord Client initialized");
 
@@ -108,7 +113,7 @@ class DiscordClient
 		presence.details = details;
 		presence.smallImageKey = smallImageKey;
 		presence.largeImageKey = largeImageKey;
-		presence.largeImageText = "Engine Version: " + states.MainMenuState.psychEngineVersion;
+		presence.largeImageText = "Engine Version: " + states.MainMenuState.engineVersion;
 		// Obtained times are in milliseconds so they are divided so Discord can use it
 		presence.startTimestamp = Std.int(startTimestamp / 1000);
 		presence.endTimestamp = Std.int(endTimestamp / 1000);
@@ -180,7 +185,7 @@ private final class DiscordPresence
 
 	function new()
 	{
-		__presence = DiscordRichPresence.create();
+		__presence = new DiscordRichPresence();
 	}
 
 	public function toString():String
