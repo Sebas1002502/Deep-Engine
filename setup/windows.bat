@@ -9,6 +9,7 @@ haxelib install openfl 9.5.2
 haxelib install flixel 6.1.2
 haxelib install flixel-addons 4.0.1
 haxelib install flixel-tools 1.5.1
+haxelib git hscript-improved https://github.com/Sebas1002502/hscript-improved.git
 haxelib install hscript-iris 1.1.3
 haxelib install tjson 1.4.0
 haxelib install hxdiscord_rpc 1.3.0

@@ -10,10 +10,10 @@ import psychlua.FunkinLua;
 #end
 
 #if HSCRIPT_ALLOWED
-import crowplexus.iris.Iris;
-import crowplexus.iris.IrisConfig;
-import crowplexus.hscript.Expr.Error as IrisError;
-import crowplexus.hscript.Printer;
+import crowplexus.iris.Iris; //will be changed to hscript-improved
+import crowplexus.iris.IrisConfig; //will be changed to hscript-improved
+import crowplexus.hscript.Expr.Error as IrisError; //will be changed to hscript-improved
+import crowplexus.hscript.Printer; //will be changed to hscript-improved
 
 import haxe.ValueException;
 
