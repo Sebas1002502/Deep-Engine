@@ -1,4 +1,3 @@
-![PsychionalEngineLogo](docs/img/PsychEngineLogoTweak.png
 
 
 -----------OUTDATED NEED EDIT-----------
