@@ -26,7 +26,7 @@ There you can learn how to use the 212 PlayState funcions in your mod!
 * Shadow Mario - The owner the Psych Engine
 * Riveren - Main Artist/Animator of Psych Engine.
 * 
-* SebasDeveloper - The only people changing psych engine :(.
+* SebasDeveloper - The only person who change psych engine :(.
 
 
 ### Special Thanks
