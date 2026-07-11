@@ -1,7 +1,7 @@
 Hello this is Deep Engine (serious other engine)
-yes the base is psych engine but is state modificed huh is have all features the psych and updated the libs (like flixel and flixel-addons).
+yes this is builded in the base is psych engine but is state modificed huh is have all features the psych and updated the libs (like flixel and flixel-addons).
 
-In the future i change flxanimate for flixek-animate and update code yeah only this bye
+In the future i change flxanimate for flixel-animate and try update code yeah only this bye :)
 
 ## Installation:
 
