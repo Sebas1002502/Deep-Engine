@@ -1,8 +1,7 @@
+Hello this is Deep Engine (serious other engine)
+yes the base is psych engine but is state modificed huh is have all features the psych and updated the libs (like flixel and flixel-addons).
 
-
-----------------------OUTDATED NEED BE EDITED---------------------
-
-Engine originally used on [Mind Games Mod](https://gamebanana.com/mods/301107), intended to be a fix for the vanilla version's many issues while keeping the casual play aspect of it. Also aiming to be an easier alternative to newbie coders.
+In the future i change flxanimate for flixek-animate and update code yeah only this bye
 
 ## Installation:
 
@@ -24,12 +23,15 @@ For this you can head over to [the wiki](https://shadowmario.github.io/psychengi
 There you can learn how to use the 212 PlayState funcions in your mod!
 
 ## Credits:
-* Shadow Mario - Main Programmer and Head of Psych Engine.
+* Shadow Mario - The owner the Psych Engine
 * Riveren - Main Artist/Animator of Psych Engine.
+* 
+* SebasDeveloper - The only people changing psych engine :(.
+
 
 ### Special Thanks
 * bbpanzu - Ex-Team Member (Programmer).
-* crowplexus - HScript Iris, Input System v3, and Other PRs.
+* crowplexus - HScript Iris(in the future deprecate the hscript iris), Input System v3, and Other PRs.
 * Kamizeta - Creator of Pessy, Psych Engine's mascot.
 * MaxNeton - Loading Screen Easter Egg Artist/Animator.
 * Keoiki - Note Splash Animations and Latin Alphabet.
@@ -126,4 +128,5 @@ There you can learn how to use the 212 PlayState funcions in your mod!
 * You can enable "Combo Stacking" in Gameplay Options. This causes the combo sprites to just be one sprite with an animation rather than sprites spawning each note hit.
 
 
-#### Psych Engine by ShadowMario, Friday Night Funkin' by ninjamuffin99
+#### Psych Engine by ShadowMario,
+#### Deep Engine by SebasDeveloper, Friday Night Funkin' by ninjamuffin99
