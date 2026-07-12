@@ -1,7 +1,7 @@
-HERE THE CODE IS UNSTABLE OR BROKEN NOT USE THIS CODE IN RECOMENDED USE THE MAIN CODE BECAUSE THIS CODE ARE EXPERIMENTAL 
 
 
-----------------------OUTDATED NEED BE EDITED---------------------
+
+
 
 Engine originally used on [Mind Games Mod](https://gamebanana.com/mods/301107), intended to be a fix for the vanilla version's many issues while keeping the casual play aspect of it. Also aiming to be an easier alternative to newbie coders.
 
